@@ -14,7 +14,8 @@
 
 <body>
     <header>
-        <nav>
+        <div class="container main-nav">
+        <nav class="main-nav">
             <a class="logo" href="">Web<span class=logo-studio>Studio</span></a>
             <ul class="site-nav">
        
@@ -23,82 +24,95 @@
                 <li><a class="link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="header-contacts">
-            <li><a href="">info@devstudio.com</a></li>
+        <ul class="header-contacts main-nav">
+            <li class="mail"><a href="">info@devstudio.com</a></li>
             <li><a href="">+38 096 111 11 11</a></li>
         </ul>
+    </div>
 
     </header>
     <main>
 
-        <section class="hero">
+        <section class="hero section">
+            <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="button" type="button">Заказать услугу</button>
+            <button class="button-main" type="button">Заказать услугу</button>
+        </div>
         </section>
 
-        <section>
-            <h2>Описание</h2>
-            <ul>
+        <section class="description section">
+            <div class="container">
+            <h2 hidden>Описание</h2>
+            <ul class="description-list">
                 <li>
                     <h3 class="description-title">Внимание к деталям</h3>
-                    <p class="description">Идейные соображения, а также начало повседневной работы по формированию
+                    <p class="description-content">Идейные соображения, а также начало повседневной работы по формированию
                         позиции.</p>
                 </li>
                 <li>
                     <h3 class="description-title">Пунктуальность</h3>
-                    <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                    <p class="description-content">Задача организации, в особенности же рамки и место обучения кадров влечет за
                         собой.</p>
                 </li>
                 <li>
                     <h3 class="description-title">Планирование</h3>
-                    <p class="description">Равным образом консультация с широким активом в значительной степени
+                    <p class="description-content">Равным образом консультация с широким активом в значительной степени
                         обуславливает.</p>
                 </li>
                 <li>
                     <h3 class="description-title">Современные технологии</h3>
-                    <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                    <p class="description-content">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                     </p>
                 </li>
             </ul>
+        </div>
         </section>
-        <section>
+        <section class="section">
+            <div class="container">
             <h2 class="section-title">Чем мы занимаемся</h2>
-            <ul>
+            <ul class="activity">
                 <li><img src="css\images\computer.jpg" alt="computer" width="370"></li>
                 <li><img src="css\images\phone.jpg" alt="phone" width="370"></li>
                 <li><img src="css\images\tablet.jpg" alt="tablet" width="370"></li>
             </ul>
+        </div>
         </section>
-        <section class="team">
+        <section class="team section">
+            <div class="container">
+            
             <h2 class="section-title">Наша команда</h2>
-            <ul>
+            <ul class="team-list">
                 <li><img src="css\images\product.jpg" alt="product-designer" width="270">
                     <h3 class="team-title">Игорь Демьяненко</h3>
-                    <p class="description" lang="en">Product Designer</p>
+                    <p class="description-content" lang="en">Product Designer</p>
                 </li>
                 <li><img src="css\images\frontend.jpg" alt="frontend-developer" width="270">
                     <h3 class="team-title">Ольга Репина</h3>
-                    <p class="description" lang="en">Frontend Developer</p>
+                    <p class="description-content" lang="en">Frontend Developer</p>
                 </li>
                 <li><img src="css\images\marketing.jpg" alt="marketing" width="270">
                     <h3 class="team-title">Николай Тарасов</h3>
-                    <p class="description" lang="en">Marketing</p>
+                    <p class="description-content" lang="en">Marketing</p>
                 </li>
                 <li><img src="css\images\ui.jpg" alt="ui-designer" width="270">
                     <h3 class="team-title">Михаил Ермаков</h3>
-                    <p class="description" lang="en">UI Designer</p>
+                    <p class="description-content" lang="en">UI Designer</p>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
     <footer>
+        <div class="container">
+            <div class="logo-footer">
         <a class="logo" href="">Web<span class="footer-studio">Studio</span></a>
+    </div>
         <address>
 
             <p class="address">
                 г. Киев, пр-т Леси Украинки, 26
             </p>
-            <ul>
+            <ul class="footer-list">
 
                 <li><a class="footer-contacts" href="">info@example.com</a></li>
                 <li><a class="footer-contacts" href="">+38 099 111 11 11</a></li>
@@ -107,6 +121,7 @@
 
 
         </address>
+    </div>
 
     </footer>
 
