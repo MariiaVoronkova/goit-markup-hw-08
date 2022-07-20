@@ -91,13 +91,22 @@ h3 {
     display:flex
     
 }
-.mail {
-    padding-right: 50px;
+.contacts {
+    margin-right: 50px;
+
+    
 }
+.contacts li:last-child {
+    margin-right: 0;
+}
+
 .header-contacts a {
     color: #757575;
     text-decoration: none;
     height: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
     
 }
 
@@ -124,9 +133,16 @@ footer {
     line-height: 1.3;
     letter-spacing: 0.06em;
     margin-bottom: 30px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
    }
    .hero-section {
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
    }
 
    .button {
@@ -186,16 +202,18 @@ footer {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    text-align: center;
 }
 .description-list {
     display: flex;
 
 }
 .description-list li {
-    padding-right: 30px;
+    margin-right: 30px;
+    width: 270px;
 }
 .description-list li:last-child {
-    padding-right: 0;
+   margin-right: 0;
 }
 
 .description-title {
@@ -214,6 +232,8 @@ footer {
 color: #757575;
 line-height: 1.7;
 letter-spacing: 0.03em;
+margin-block-end: 0;
+margin-block-start: 0;
 
 
 }
@@ -226,7 +246,13 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     padding-bottom: 10px;
     text-align: center;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-bottom: 50;
 
+}
+.activity-section {
+    padding-bottom: 94px;
 }
 .activity {
     display: flex;
@@ -245,10 +271,10 @@ letter-spacing: 0.03em;
     display: flex;
 }
 .team-list li {
-    padding-right: 30px;
+   margin-right: 30px;
 }
 .team-list li:last-child {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 .team-title {
@@ -257,15 +283,24 @@ letter-spacing: 0.03em;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.03em;
-
-
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-bottom: 12px;
+}
+.team-list-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 img {
     display: block;
 }
-.logo-footer {
+.footlogo {
+    display: block;
+   margin-bottom: 20px;
+}
+footer {
     padding-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .footer-studio {
@@ -282,13 +317,13 @@ img {
     letter-spacing: 0.03em;
 }
 .footer-list {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
 }
 .footer-list li {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 .footer-list li:last-child {
-    padding-bottom: 0 ;
+    margin-bottom: 0 ;
 }
 
 
@@ -302,7 +337,9 @@ img {
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    padding-bottom: 9px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-bottom: 12px;
 
 
 }
