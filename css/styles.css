@@ -38,12 +38,6 @@ h3 {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.03em;
-
-
-
-
-
-
 }
 
 .logo-studio {
@@ -77,11 +71,8 @@ h3 {
 .site-nav .link.current{
     color: #2196F3
 
-
 }
   
-
-
 .site-nav a:hover,
 .site-nav a:focus {
     color: #2196F3;
@@ -90,15 +81,12 @@ h3 {
     margin-left: auto;
     display:flex
     
+    
 }
 .contacts:not(:last-child) {
     
-    margin-right: 50px;
-}
-
-
-  
-
+margin-right: 50px;
+    }
 
 .header-contacts a {
     color: #757575;
@@ -108,9 +96,7 @@ h3 {
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
-    
-}
-
+    }
 .header-contacts a:hover,
 .header-contacts a:focus {
     color: #2196F3
@@ -118,12 +104,16 @@ h3 {
 .main-nav {
     display: flex;
     align-items: center;
-}
+    }
 
 .hero,
 footer {
     background-color: #2F303A;
 
+}
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
