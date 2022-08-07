@@ -520,16 +520,12 @@ footer {
     height: 92px;
     border-radius: 4px;
 }
-.clients-icon {
 
-    fill: #AFB1B8;
-}
-.clients-icon:hover, .clients-icon:focus {
-    fill: currentColor;
-}
+
 .clients-link:hover, .clients-link:focus {
-    fill: currentColor;
-    border-color: currentColor;
+    fill: #2196F3;
+    border-color: #2196F3;
+    
 }
 .clients-link {
     display: flex;
@@ -539,7 +535,7 @@ footer {
     border-radius: 4px;
     width: 100%;
     height: 100%;
-    color: #2196F3;
+   fill: #AFB1B8;
 }
 
 .footer-socials-title {
