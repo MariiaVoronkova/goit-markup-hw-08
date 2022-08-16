@@ -646,15 +646,16 @@ background: #FFFFFF;
     display: inline-block;
     content:"Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
     color: #FFFFFF;
-    padding-top: 63px;
-    padding-bottom: 63px;
-    padding-left: 24px;
-    padding-right: 24px;
-    font-size: 18px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0.03em;
-text-align: left;
+        padding-top: 63px;
+        padding-bottom: 63px;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
 
     width: 370px;
     height: 294px;
@@ -669,6 +670,5 @@ text-align: left;
     transform: translateY(0px);
     opacity: 1;
     
+    }
     
-    
- }
