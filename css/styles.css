@@ -637,6 +637,7 @@ background: #FFFFFF;
  }
  .card-overlay {
     overflow: hidden;
+    position: relative;
  }
  
  
