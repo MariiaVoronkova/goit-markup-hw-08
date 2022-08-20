@@ -444,6 +444,7 @@ footer {
     margin-block-end: 0;
     margin-block-start: 0;
     margin-bottom: 4px;
+    color: #000;
 
 }
 
@@ -675,7 +676,7 @@ background: #FFFFFF;
     
 
  }
- .card-overlay:hover::before {
+.card-overlay:hover::before {
     transform: translateY(0px);
     opacity: 1;
     
@@ -695,4 +696,6 @@ background: #FFFFFF;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     }
-    
+    .portfolio-link-item {
+        text-decoration: none;
+    }
