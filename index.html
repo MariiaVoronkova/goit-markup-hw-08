@@ -47,6 +47,40 @@
                 <button class="button-main" type="button" data-modal-open>Заказать услугу</button>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
+                        <form>
+                            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                            <label class="label" for="name">Имя</label>
+                            <div class="input-field">
+                                <input class="input" type="text" name="name" id="name">
+                            <svg class="icon-input" width="18" height="18">
+                                <use href="./css/icons/icons.svg#person-ic"></use>
+                              </svg>
+                            </div>
+                            <label class="label" for="phone">Телефон</label>
+                            <div class="input-field">
+                            <input class="input" type="tel" name="tel-number" id="phone">
+                            <svg class="icon-input" width="18" height="18">
+                                <use href="./css/icons/icons.svg#phone-ic"></use>
+                              </svg>
+                            </div>
+                            <label class="label" for="email-modal">Почта</label>
+                            <div class="input-field">
+                            <input class="input" type="email" name="e-mail" id="email-modal">
+                            <svg class="icon-input" width="18" height="18">
+                                <use href="./css/icons/icons.svg#email-ic"></use>
+                              </svg>
+                            </div>
+                            <label class="label" for="comments">Комментарий</label>
+                            <textarea class="input-comments" name="comments" id="comments" placeholder="Введите текст"></textarea>
+                            <label class="policy-label">
+                                <input class="checkbox" type="checkbox" name="agreement" id="policy1">
+                                <span class="custom-checkbox"></span>
+                                <span class="text-policy-link">Соглашаюсь с рассылкой и принимаю
+                                  <a class="policy-link" href="" target="_blank" rel="noopener noreferrer">
+                                    Условия договора</a></span>
+                              </label>
+                              <button class="send-button" type="submit">Отправить</button>
+                        </form>
                       <button class="close-button" data-modal-close><svg class="close" width="18" height="18"><use href="./css/icons/icons.svg#closenew"></use></svg></button>
                         </div>
                         </div>
@@ -341,6 +375,18 @@
 
                 </ul>
             </div>
+        </div>
+        <div class="subscription">
+            <h3 class="footer-socials-title">Подпишитесь на рассылку</h3>
+            <form class="join-form">
+                <div class="flex-cont">
+                    <label class="email-label visually-hidden" for="email">Почта</label>
+                    <input class="email-input" type="email" name="email" id="email" placeholder="E-mail">
+                    <button class="subscribe-button" type="submit">Подписаться <svg class="send-icon" width="24" height="24">
+                        <use href="./css/icons/icons.svg#icon-send"></use>
+                    </svg></button>
+                </div>
+            </form>
         </div>
 
     </footer>
