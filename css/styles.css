@@ -195,6 +195,7 @@ footer {
 }
 
 .button-main {
+    cursor: pointer;
 
     text-align: center;
     align-items: center;
@@ -210,6 +211,7 @@ footer {
     margin: 0 auto;
     min-width: 200px;
     border: 1px solid transparent
+    
 }
 
 .button-portfolio {
@@ -684,7 +686,12 @@ fill: #2196f3;
  }
  .input-field {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
     margin-bottom: 10px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
  }
  .icon-input {
     position: absolute;
@@ -696,6 +703,10 @@ fill: #2196f3;
  }
  .icon-input:hover {
     fill: #2196F3;
+ }
+ .input-field:focus-within .input,
+ .input-field:hover .input {
+    border: 1px solid #2196F3;
  }
  
 
@@ -723,6 +734,7 @@ fill: #2196f3;
  }
  .text-policy-link {
     color: #757575;
+    font-size: 14px;
  }
  .checkbox {
     position: absolute;
@@ -743,8 +755,8 @@ fill: #2196f3;
     border-radius: 2px;
  }
  .checkbox:checked + .custom-checkbox {
-   background-color: #2196f3;
-    background-image: url(./css/icons/icons.svg#icon-check);
+  
+    background-image: url(./css/icons/icon-checkk.svg);
     background-size: contain;
     background-origin: border-box;
     border: none;}
@@ -869,6 +881,7 @@ fill: #2196f3;
     
     }
     .close-button {
+        cursor: pointer;
     position: absolute;
     display: flex;
     align-items: center;
@@ -888,6 +901,11 @@ fill: #2196f3;
     .close-button:hover {
         border-color: #2196F3;
         fill: #2196F3;
+    }
+    .close {
+        
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
     
     
