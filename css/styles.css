@@ -1,6 +1,9 @@
 body {
     background-color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     font-family: Roboto, sans-serif
+   
 }
 
 ul {
@@ -137,6 +140,7 @@ section {
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
+    display: flex;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -322,6 +326,7 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 .activity-section {
 
     padding-bottom: 94px;
+    padding-top: 0;
 }
 
 .activity {
@@ -679,7 +684,7 @@ background: #FFFFFF;
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
- .input:hover {
+ .input:hover{
 border-color: #2196F3;
 fill: #2196f3;
 
@@ -701,7 +706,7 @@ fill: #2196f3;
     fill: #212121;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
- .icon-input:hover {
+ .icon-input:hover, .input:hover{
     fill: #2196F3;
  }
  .input-field:focus-within .input,
@@ -756,10 +761,11 @@ fill: #2196f3;
  }
  .checkbox:checked + .custom-checkbox {
   
-    background-image: url(./css/icons/icon-checkk.svg);
+    background-image: url(../css/icons/icon-checkk.svg);
     background-size: contain;
     background-origin: border-box;
-    border: none;}
+    border: none;
+background-color: #2196F3;}
      
  .send-button {
     display: block;
