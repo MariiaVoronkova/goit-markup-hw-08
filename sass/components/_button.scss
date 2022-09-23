@@ -1,0 +1,61 @@
+.button {
+    text-align: center;
+    align-items: center;
+}
+
+.button-main {
+    cursor: pointer;
+
+    text-align: center;
+    align-items: center;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    padding: 10px 32px;
+    margin: 0 auto;
+    min-width: 200px;
+    border: 1px solid transparent
+    
+}
+
+.button-portfolio {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    color: #212121;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    padding: 6px 22px;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+        color: #FFFFFF;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    
+    }
+}
+
+
+.button-list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.button-list li:not(:last-child) {
+    margin-right: 8px;
+}

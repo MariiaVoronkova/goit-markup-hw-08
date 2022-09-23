@@ -1,0 +1,17 @@
+.activity-section {
+
+    padding-bottom: 94px;
+    padding-top: 0;
+}
+
+.activity {
+    display: flex;
+}
+
+.activity li {
+    margin-right: 30px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
