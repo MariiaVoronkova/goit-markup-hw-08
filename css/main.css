@@ -432,55 +432,62 @@ section {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contacts {
-  margin-left: auto;
-  display: flex;
-}
+/*.header-contacts {
+     margin-left: auto;
+     display: flex
+ }
 
 .contacts:not(:last-child) {
-  margin-right: 50px;
-}
 
-.contacts .mail-icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
-.contacts .mail-icon:hover {
-  fill: #2196F3;
-}
+     margin-right: 50px;
+ }
 
-.contacts .phone-icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
-.contacts .phone-icon:hover {
-  fill: #2196F3;
-}
+ .contacts .mail-icon {
+
+
+     margin-right: 10px;
+     fill: currentColor;
+     &:hover {
+         fill: #2196F3;
+
+     }
+
+ }
+
+ .contacts .phone-icon {
+
+    margin-right: 10px;
+     fill: currentColor;
+     &:hover {
+        fill: #2196F3;
+     }
+     }
 
 .contacts a {
-  display: flex;
-  align-items: center;
+     display: flex;
+     align-items: center;
 }
 
 .header-contacts a {
-  color: #757575;
-  text-decoration: none;
-  font-weight: 500;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  display: block;
-  display: flex;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-contacts a:hover, .header-contacts a:focus {
-  color: #2196F3;
-}
-
-.main-nav {
-  display: flex;
-  align-items: center;
+     color: #757575;
+     text-decoration: none;
+     font-weight: 500;
+     padding-top: 32px;
+     padding-bottom: 32px;
+     display: block;
+     display: flex;
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     &:hover,
+ &:focus {
+    color: #2196F3
 }
 
+ }
+
+ .main-nav {
+     display: flex;
+     align-items: center;
+ } */
 .hero, footer {
   background-color: #2F303A;
 }

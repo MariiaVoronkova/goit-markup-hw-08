@@ -1,4 +1,15 @@
  .header-contacts {
+    display: none;
+ }
+ .mobile-menu-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+ }
+ .mobile-menu-btn__icon {
+    width: 40px;
+    height: 40px;}
+ /*.header-contacts {
      margin-left: auto;
      display: flex
  }
@@ -53,4 +64,4 @@
  .main-nav {
      display: flex;
      align-items: center;
- }
+ } */
