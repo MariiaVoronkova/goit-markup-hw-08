@@ -1,11 +1,12 @@
 .site-nav {
     display: none;
+    margin-left: 93px;
 }
 
-
-/*.site-nav {
+@media screen and (min-width: 1200px) {
+.site-nav {
     display: flex;
-    margin-left: 93px;
+   margin-left: 93px;}
 }
 
 .site-nav li {
@@ -51,5 +52,4 @@
     background-color: #2196F3;
     opacity: 0;
     transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
